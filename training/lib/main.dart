@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import "home.dart";
 
 void main() {
   runApp(MyApp());
@@ -27,7 +28,6 @@ class ContainerPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Cart with text
             Container(
               height: 120,
               width: 500,
